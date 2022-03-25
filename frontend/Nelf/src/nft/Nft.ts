@@ -1,4 +1,5 @@
-import { User } from "../user/User";
+import { User } from "src/user/User";
+
 
 export class Nft {
     constructor(
