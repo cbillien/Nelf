@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 
@@ -8,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Nelf';
+
+  constructor(private httpClient: HttpClient){
+
+  }
+
+  onTestHttp(){
+    this.httpClient.get('/api/room').subscribe(resp=>{
+      console.log('OK', resp)
+    })
+  }
 }

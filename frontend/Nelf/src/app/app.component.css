@@ -1,0 +1,194 @@
+@font-face {
+    font-family: splatch;
+    src: url("../assets/fonts/splatch/splatch-webfont.woff") format("woff");
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+  }
+
+  body{
+      background: rgba(0, 0, 0, 0);
+  }
+
+.logo{
+    height: 4em;
+    width: 3em;
+}
+
+.signin{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    border: 1px solid grey;
+    margin: 1em;
+}
+
+.signup{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: rgb(255, 187, 0);
+}
+
+.navbar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    width: 98%;
+    border: 1px grey;
+    border-radius: 25px;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.158);
+}
+
+.content{
+    width: 80%;
+    display: grid;
+    margin: auto 1em auto 1em;
+}
+
+.main{
+    display: flex;
+}
+
+.salons-container{
+    display: grid;
+    width: 20%;
+}
+
+.salons{
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    float: left;
+    margin: 1em;
+    text-align: center;
+    color: black;
+    
+}
+
+.salons ul{
+    list-style: none;
+    padding: 1em;
+}
+
+.salons ul li{
+    margin: 1em;
+}
+
+.salons img{
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    margin: auto 2em auto auto;
+}
+
+.salon{
+    margin-top: 0.3em;
+    display: flex;
+}
+
+.salon p{
+    margin-bottom: 0.4em
+}
+
+.salon .salon-time{
+    font-style: italic;
+}
+
+.evenementSpecialeDiv {
+    text-align: center;
+    float: right;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    margin-top: 1em;
+    padding-top: 1.8em;
+    height: 15em;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/images/banner.gif");
+    color:white;
+}
+
+.evenementSpecialeDiv h1 {
+    font-family: splatch;
+    font-size: 2.7em;
+    color: white;
+    mix-blend-mode: difference;
+    margin-bottom: .5em;
+    line-height: 1.5em;
+}
+
+.eventbutton {
+    padding: .5em 1.5em .5em 1.5em;
+    border-radius: 30px;
+}
+
+.specialevent{
+    display: block;
+    margin: auto;
+}
+
+.nfts{
+    text-align: center;
+    float: right;
+    background : white;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding-bottom: 1.5em;
+    margin: 1em 1em 1em auto;
+    width: 100%;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    color:black;
+    min-height: 300px;
+}
+
+.nfts-title{
+    display: flex;
+    text-align: left;
+    margin: 1em auto 1em 1em;
+}
+
+.fire-icon{
+    margin-top: 8px;
+    margin-left: 7px;
+} 
+
+.nft-list{
+    display: flex;
+}
+
+.nft {
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    width: 20%;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+.nft p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nft img{
+    height: 25vh;
+    width: auto;
+    margin: 10px auto auto auto;
+    border-radius: 25px;
+}

@@ -1,5 +1,4 @@
-import { User } from "src/user/User";
-
+import { User } from "../user/User";
 
 export class Room {
     constructor(
